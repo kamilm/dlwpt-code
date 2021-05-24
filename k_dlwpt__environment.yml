@@ -1,0 +1,26 @@
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.6.8
+  - pytorch=1.5.0
+  - torchvision=0.6.0
+  - cudatoolkit=10.2
+  - blosc>=1.8.1,<2
+  - diskcache=4.1.0
+  - h5py
+  - matplotlib
+  - numpy<=1.16.4
+  - pillow
+  - scikit-image>=0.15.0
+  - scipy
+  - simpleitk
+  - tensorflow>=1.14,<2
+  - ipykernel
+  - nb_conda_kernels
+  - pandas 
+  - tqdm
+  - pip
+  - pip:
+    - pylidc
