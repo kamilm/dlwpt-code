@@ -2,3 +2,5 @@
 tools
 *_old
 **/.ipynb_checkpoints/**
+_Code_KM/data_unversioned/**
+_Exercise_KM/data_unversioned/**
